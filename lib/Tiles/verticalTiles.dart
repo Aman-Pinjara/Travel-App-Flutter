@@ -132,7 +132,7 @@ class VerticalTiles extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(10),
       child: Hero(
-        tag: "${data.imageUrl}image",
+        tag: "${data.name}image",
         child: Image.asset(
           data.imageUrl,
           fit: BoxFit.cover,

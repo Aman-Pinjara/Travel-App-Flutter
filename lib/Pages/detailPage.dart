@@ -42,7 +42,7 @@ class DetailPage extends StatelessWidget {
           Container(
             constraints: const BoxConstraints.expand(),
             child: Hero(
-              tag: "${data.imageUrl}image",
+              tag: "${data.name}image",
               child: image(),
             ),
           ),
